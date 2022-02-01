@@ -9,15 +9,15 @@ from Userbot.quote import arq
 
 async def main():
     await call_py.start()
-    await bot.join_chat("RaichuOfficial")            
+    await bot.join_chat("TeaMNOoBb")            
     await bot.send_message(
             SUPPORT,
-            "<b>Congrats!! Music Bot has started successfully!</b>",
+            "<b>Music Bot has started successfully!</b>",
         )
     print(
         """
     ------------------
-   | Userbot Started! POWERED BY @TEAMDEECODE |
+   [NOoB]
     ------------------
 """
     )
