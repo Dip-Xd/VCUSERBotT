@@ -1,14 +1,10 @@
-# 📀 𝐕𝐂𝐔𝐬𝐞𝐫𝐁𝐨𝐭
 
-## √𝐓𝐞𝐚𝐦𝐃𝐞𝐂𝐨𝐝𝐞
+
+
 
 ### NOTE JUST AN ENGLISH VERSION OF OUR PRIVATE SOURCE 
 
-# WAIT FOR LATEST UPDATES
 
-## JOIN [@𝐒𝐔𝐏𝐏𝐎𝐑𝐓](HTTPS://T.ME/DECODESUPPORT) 
-
-## JOIN [@𝐂𝐇𝐀𝐍𝐍𝐄𝐋](HTTPS://T.ME/DEECODEBOTS) 
 
 # DEPLOY TO HEROKU 
 
@@ -17,10 +13,4 @@
 
 # CREDIT
 
-[AKKI](https://t.me/godfatherakkii) - CONTRIBUTOR
-
-[LAKY](https://t.me/Laky64) - FOR PY-TGCALLS
-
-[ERROR](https://t.me/BrayDenXD) - CONTRIBUTOR
-
-[BLAZE](https://t.me/piroXpower)- OWNER
+[DEEP](https://t.me/@Dip_Xd) - [NOoB]
