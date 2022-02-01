@@ -66,7 +66,7 @@ async def pause(client, m: Message):
         try:
             await call_py.pause_stream(chat_id)
             await m.reply(
-                f"**⏸ Playback paused.**\n\n• To resume playback, use the command » {HNDLR}resume"
+                f"**⏸ Playback paused.**\n\n• To resume playback, use the command » `{HNDLR}resume`"
             )
         except Exception as e:
             await m.reply(f"**ERROR** \n`{e}`")
@@ -83,7 +83,7 @@ async def resume(client, m: Message):
         try:
             await call_py.resume_stream(chat_id)
             await m.reply(
-                f"**▶ Resume paused playback**\n\n• To pause playback, use the command » {HNDLR}pause**"
+                f"**▶ Resume paused playback**\n\n• To pause playback, use the command »** `{HNDLR}pause`"
             )
         except Exception as e:
             await m.reply(f"**ERROR** \n`{e}`")
