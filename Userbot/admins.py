@@ -15,17 +15,17 @@ async def skip(client, m: Message):
     if len(m.command) < 2:
         op = await skip_current_song(chat_id)
         if op == 0:
-            await m.reply("**❌ There's nothing in the queue to skip!**")
+            await m.reply("`❌ There's nothing in the queue to skip!`")
         elif op == 1:
-            await m.reply("Empty Queue, Leaving Voice Chat**")
+            await m.reply("`Empty Queue, Leaving Voice Chat`")
         else:
             await m.reply(
-                f"**⏭ Skip playback** \n**🎧 Now play** - [{op[0]}]({op[1]}) | `{op[2]}`",
+                f"**⏭ Skip playback** \n`🎧 Now play` - [{op[0]}]({op[1]}) | `{op[2]}`",
                 disable_web_page_preview=True,
             )
     else:
         skip = m.text.split(None, 1)[1]
-        OP = "**🗑️ Removed the following songs from the Queue: -**"
+        OP = "**🔗 Removed the following songs from the Queue: -**"
         if chat_id in QUEUE:
             items = [int(x) for x in skip.split(" ") if x.isdigit()]
             items.sort(reverse=True)
