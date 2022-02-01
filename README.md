@@ -13,4 +13,4 @@
 
 # CREDIT
 
-[DEEP](https://t.me/@Dip_Xd) - [NOoB]
+[DEEP](https://t.me/Dip_Xd) - [NOoB]
