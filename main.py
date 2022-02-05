@@ -9,7 +9,7 @@ from Userbot.quote import arq
 
 async def main():
     await call_py.start()
-    await bot.join_chat("TeaMNOoBb")            
+    await bot.join_chat("TeaMNOoBX")            
     await bot.send_message(
             SUPPORT,
             "<b>Music Bot has started successfully!</b>",
